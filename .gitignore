@@ -1,0 +1,36 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Sensitive data
+credentials.json
+token.pickle
+.env
+*.key
+.claude 
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs (keep directory, ignore files)
+AI_Employee_Vault/Logs/*.log
+AI_Employee_Vault/Logs/*.json
+
+# Temporary files
+*.tmp
+~$*
+token.json
+credentials.json
+venv/
